@@ -1,0 +1,9 @@
+---
+- name: Package installation
+  apt:
+    name:
+      - firewalld
+      - apache2
+      - php
+
+# tasks file for /home/workstation1/ansibletest/roles/thirdcase
